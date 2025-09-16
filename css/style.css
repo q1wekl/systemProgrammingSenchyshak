@@ -19,10 +19,17 @@ body {
 }
 
 /* Заголовки */
-h2, h3, h4, h5 {
+h1,h2, h3, h4, h5 {
     margin-top: 1.5em;
     margin-bottom: 0.5em;
     color: #343a40;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
 }
 
 /* Спеціально для головного заголовка */
@@ -81,3 +88,4 @@ embed {
         height: 400px;
     }
 }
+
